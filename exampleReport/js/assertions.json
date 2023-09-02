@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CreateAuthors",
+  "simulationId": "createauthors-20230902144212360",
+  "start": 1693665733663,
+  "description": "",
+  "scenarios": ["Create Authors"],
+  "assertions": [
+
+  ]
+}
