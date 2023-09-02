@@ -14,7 +14,7 @@ import static io.gatling.javaapi.http.HttpDsl.status;
 
 public class GetAuthorsBooksById extends Simulation {
 
-    private static final ScenarioBuilder scn = scenario("Get Author Books API")
+    private static final ScenarioBuilder scn = scenario("Get Author Books by ID API")
                     .exec(http(EndPoints.AuthorBooks)
                     .get("/1")
                     .check(status().is(200)));

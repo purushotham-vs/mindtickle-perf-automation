@@ -26,6 +26,7 @@
                 </executions>
                 <configuration>
                     <simulationsFolder>src/test/java</simulationsFolder>
+<!--                    <simulationClass>simulations/UpdateAuthorsById.java</simulationClass>-->
                     <runMultipleSimulations>true</runMultipleSimulations>
                 </configuration>
             </plugin>
